@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 4,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.4,
+  "editor.detectIndentation": false,
+  "editor.hover.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "prettier.bracketSpacing": false
+}
