@@ -1,11 +1,18 @@
 {
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.tabSize": 4,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 1.4,
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.35,
   "editor.detectIndentation": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 1000,
   "terminal.integrated.fontSize": 14,
-  "prettier.bracketSpacing": false
+  "git.terminalAuthentication": false,
+  "prettier.bracketSpacing": false,
+  "python.formatting.provider": "yapf",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: pep8, indent_width: 2}"
+  ]
 }
