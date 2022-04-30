@@ -1,15 +1,15 @@
 # # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-# tasks:
-#   - init: echo 'init script' # runs during prebuild
-#     env:
-#       PATH: /workspace/local/bin:/workspace/bin:/workspace/Apps/jdk-17/bin:/workspace/Apps/jdk-18/bin:/workspace/Apps/jdk-19/bin:/workspace/Apps/dotnet:/workspace/Apps/go/bin:/home/gitpod/.local/bin:/home/gitpod/.pyenv/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/home/gitpod/go/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.5/bin:/home/gitpod/.rvm/gems/ruby-2.7.5@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.5/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin
-#     command: echo 'start script'
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    env:
+      PATH: /workspace/local/bin:/workspace/bin:/workspace/Apps/jdk-17/bin:/workspace/Apps/jdk-18/bin:/workspace/Apps/jdk-19/bin:/workspace/Apps/dotnet:/workspace/Apps/go/bin:/home/gitpod/.local/bin:/home/gitpod/.pyenv/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/home/gitpod/go/bin:/ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/workspace/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/home/gitpod/.nix-profile/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/workspace/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.7.5/bin:/home/gitpod/.rvm/gems/ruby-2.7.5@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.5/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.nix-profile/bin:/ide/bin/remote-cli:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin:/home/gitpod/.nvm/versions/node/v16.13.2/bin
+    command: echo 'start script'
 
 # # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 # ports:
 #   - port: 3000
 #     onOpen: open-preview
 
-tasks:
-  - init: echo init...
-  - command: sh /workspace/Env/init.sh && sh /workspace/Env/install-apps.sh
+# tasks:
+#   - init: echo init...
+#   - command: sh /workspace/Env/init.sh && sh /workspace/Env/install-apps.sh
