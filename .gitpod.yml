@@ -11,4 +11,5 @@
 #     onOpen: open-preview
 
 tasks:
-  - init: sh /workspace/Env/init.sh && sh /workspace/Env/install-apps.sh
+  - init: echo init...
+  - command: sh /workspace/Env/init.sh && sh /workspace/Env/install-apps.sh
