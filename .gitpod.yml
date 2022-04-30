@@ -9,3 +9,6 @@
 # ports:
 #   - port: 3000
 #     onOpen: open-preview
+
+tasks:
+  - init: sh /workspace/Env/init.sh && sh /workspace/Env/install-apps.sh
