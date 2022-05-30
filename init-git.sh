@@ -1,0 +1,1 @@
+cp /workspace/gitconfig ~/.gitconfig
