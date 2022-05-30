@@ -1,1 +1,1 @@
-cp /workspace/gitconfig ~/.gitconfig
+cp /workspace/Env/gitconfig ~/.gitconfig
