@@ -7,3 +7,4 @@ sudo /etc/init.d/ssh start
 #sh /workspace/pkgs2/install.sh
 sudo cp /workspace/Env/ngrok /usr/local/bin
 sudo chmod 755 /usr/local/bin/ngrok
+sudo locale-gen ko_KR.UTF-8
