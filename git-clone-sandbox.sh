@@ -25,4 +25,4 @@ git clone https://gitlab.com/jayeonsoo/ex-playwright-1
 git clone https://gitlab.com/jayeonsoo/my_websocket_app.git
 git clone https://gitlab.com/jayeonsoo/rendezvous_ex_2
 git clone https://gitlab.com/jayeonsoo/websocketex.git
-git clone https://gitlab.com/jayeonsoo/ws_echo_server.git
+git clone https://gitlab.com/jayeonsoo/ws_echo_server_ex.git
