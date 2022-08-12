@@ -1,0 +1,1 @@
+find /workspace/|grep .git/config|xargs grep 'url = '|sed -e 's/.*url =/git clone/'
