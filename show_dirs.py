@@ -5,6 +5,7 @@ roots = [
     'stock',
     'Factory',
     'rpm-workspace',
+    '1',
 ]
 
 for root in roots:
