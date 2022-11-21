@@ -4,6 +4,7 @@ mkdir -p rpm-workspace
 cd rpm-workspace
 git clone git@gitlab.com:jayeonsoo/rpm
 git clone git@gitlab.com:jayeonsoo/rpmscrgen
+git clone git@gitlab.com:jayeonsoo/rpmmgr
 git clone git@gitlab.com:jayeonsoo/rpm_agent_2
 git clone git@gitlab.com:jayeonsoo/rpm_agent_monitor
 git clone git@gitlab.com:jayeonsoo/rpm_api_server
