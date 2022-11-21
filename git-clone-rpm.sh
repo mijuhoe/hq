@@ -6,6 +6,7 @@ git clone git@gitlab.com:jayeonsoo/rpm
 git clone git@gitlab.com:jayeonsoo/rpmscrgen
 git clone git@gitlab.com:jayeonsoo/rpm_agent_2
 git clone git@gitlab.com:jayeonsoo/rpm_agent_monitor
+git clone git@gitlab.com:jayeonsoo/rpm_api_server
 git clone git@gitlab.com:jayeonsoo/rendezvous_ex_3
 git clone git@gitlab.com:jayeonsoo/d2
 cd ..
