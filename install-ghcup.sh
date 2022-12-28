@@ -25,6 +25,12 @@ ghcup set cabal 3.8.1.0
 sudo rm -f /usr/local/bin/stack
 sudo rm -f /usr/local/bin/cabal
 sudo rm -f /usr/local/bin/ghc
+sudo rm -f /usr/local/bin/ghci
+sudo rm -f /usr/local/bin/runghc
+sudo rm -f /usr/local/bin/runhaskell
 sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
 sudo ln -s /home/gitpod/.ghcup/bin/cabal /usr/local/bin/cabal
 sudo ln -s /home/gitpod/.ghcup/bin/ghc /usr/local/bin/ghc
+sudo ln -s /home/gitpod/.ghcup/bin/ghci /usr/local/bin/ghci
+sudo ln -s /home/gitpod/.ghcup/bin/runghc /usr/local/bin/runghc
+sudo ln -s /home/gitpod/.ghcup/bin/runhaskell /usr/local/bin/runhaskell
