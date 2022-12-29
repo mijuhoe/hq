@@ -1,1 +1,1 @@
-cp git-config-https .git/config
+git remote set-url origin https://gitlab.com/m82425342201/env
