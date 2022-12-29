@@ -1,0 +1,4 @@
+{
+  "key": "ctrl+shift+p",
+  "command": "workbench.action.toggleMaximizedPanel"
+}
