@@ -1,0 +1,1 @@
+cp git-config-ssh .git/config

@@ -1,0 +1,1 @@
+cp git-config-https .git/config
