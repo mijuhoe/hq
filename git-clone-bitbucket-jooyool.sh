@@ -1,5 +1,5 @@
 cd /workspace
-mkdir -p 1
+mkdir -p bitbucket
 cd 1
 git clone git@bitbucket.org:jooyool/haskellbyexample.git
 git clone git@bitbucket.org:jooyool/haskellsmissingconcurrencybasics.git
@@ -15,3 +15,5 @@ git clone git@bitbucket.org:jooyool/haskellex2.git
 git clone git@bitbucket.org:jooyool/cpp11ex1.git
 git clone git@bitbucket.org:jooyool/haskell-example-1.git
 git clone git@bitbucket.org:jooyool/hython.git
+git clone git@bitbucket.org:jooyool/core.git
+git clone git@bitbucket.org:jooyool/haskell-happy-example.git
