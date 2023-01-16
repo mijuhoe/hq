@@ -1,5 +1,6 @@
 mkdir -p /workspace/stock
 cd /workspace/stock
+git clone ssh://git@gitlab.com/m8228308850/backtestV7
 git clone ssh://git@gitlab.com/m8228308850/backtestV6
 git clone ssh://git@gitlab.com/m8228308850/stock_krx
 git clone ssh://git@gitlab.com/m8228308850/stock_naver
