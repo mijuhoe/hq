@@ -1,5 +1,5 @@
 git pull
-cp .vscode/settings.json.1 .vscode/settings.json
+cp /workspace/env/.vscode/settings.json.1 /workspace/env/.vscode/settings.json
 cp /workspace/env/gitconfig ~/.gitconfig
 cd /workspace
 sudo apt update
