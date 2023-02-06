@@ -1,6 +1,6 @@
 mkdir -p /workspace/stock
 cd /workspace/stock
-git clone ssh://git@gitlab.com/m8228308850/backtestV7
+git clone ssh://git@gitlab.com/m8228308850/backtestV9
 git clone ssh://git@gitlab.com/m8228308850/exbithumb
 git clone ssh://git@gitlab.com/m8228308850/exupbit
 git clone ssh://git@gitlab.com/m8228308850/koreainvestment-autotrade
