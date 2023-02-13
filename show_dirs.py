@@ -14,6 +14,7 @@ roots = [
     '4',
     '5',
     'bitbucket',
+    'primecodes',
 ]
 
 
