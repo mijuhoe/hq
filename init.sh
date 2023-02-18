@@ -11,3 +11,4 @@ sudo chmod 755 /usr/local/bin/ngrok
 sudo locale-gen ko_KR.UTF-8
 cp /workspace/env/x /workspace
 chmod +x /workspace/x
+echo "LANG=C.UTF-8" >> $HOME/.bashrc
